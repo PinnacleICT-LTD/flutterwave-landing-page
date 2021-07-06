@@ -1,0 +1,174 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  display: flex;
+}
+
+.body{
+  background-color: #bbc;
+  padding-left: 20px;
+}
+
+.header-content{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+.grow{
+  color: navy;
+  font-size: 50px;
+}
+
+.header{
+  color: navy;
+  font-size: large;
+  font-weight: bold;
+}
+
+.h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.column{
+  flex-direction: column;
+  display: flex;
+}
+
+.checkbox-list-1{
+  flex-direction: column;
+  flex-basis: 70%;
+  order: 1;
+}
+
+.checkbox-list-2{
+  flex-direction: column;
+  flex-basis: 50%;
+  order: 2;
+}
+
+.P{
+  font-size: 30px;
+  color: grey;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.grow1{
+  font-size: 50px;
+}
+
+.App-header {
+  min-height: auto;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  color: black;
+  padding: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.App-signup, .App-speak{
+  text-transform: uppercase;
+}
+
+.App-speak{
+  margin-left: 10px;
+}
+
+.caps{
+  text-transform: uppercase;
+  color: orange;
+  text-decoration: underline;
+}
+
+.column{
+  display: flex;
+  flex-direction: row;
+}
+
+.body1{
+  padding: 10px;
+}
+
+.row1{
+  display: flex;
+}
+
+.wrapper, .header-content{
+  display: inline-flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-content: center;
+}
+
+.images-container-1, .images-container-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.image-1{
+  flex-basis: 50%;
+  order: 4;
+  right: 20px;
+  position: relative;
+}
+
+.image-2{
+  flex-basis: 35%;
+  order: 1;
+  left: 35px;
+  position: relative;
+}
+
+.image-3{
+  flex-basis: 50%;
+  order: 3;
+  top: 5px;
+  right: 50px;
+  position: relative;
+}
+
+.image-4{
+  flex-basis: 35%;
+  order: 2;
+}
+
+.max-image{
+  order: 1;
+  flex-basis: 45%;
+}
+
+.max-body{
+  order: 2;
+  flex-basis: 45%;
+}
+
+.max{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.row{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
