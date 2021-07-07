@@ -17,7 +17,7 @@
 
 .grow{
   color: navy;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .header{
@@ -60,7 +60,7 @@
 }
 
 .grow1{
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .App-header {
@@ -95,8 +95,18 @@
   flex-direction: row;
 }
 
+.right, .left{
+  position: relative;
+}
+
+.right{
+  padding-right: 50px;
+}
+
 .body1{
-  padding: 10px;
+  padding: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .row1{
@@ -108,6 +118,9 @@
   justify-content: space-evenly;
   flex-direction: row;
   align-content: center;
+  padding: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .images-container-1, .images-container-2{
@@ -121,27 +134,31 @@
 .image-1{
   flex-basis: 50%;
   order: 4;
-  right: 20px;
   position: relative;
+  width: 229.64px;
+  height: 135.63;
 }
 
 .image-2{
   flex-basis: 35%;
+  width: 156.25px;
+  height: 151.03px;
   order: 1;
-  left: 35px;
   position: relative;
 }
 
 .image-3{
   flex-basis: 50%;
   order: 3;
-  top: 5px;
-  right: 50px;
   position: relative;
+  width: 229.64px;
+  height: 135.63;
 }
 
 .image-4{
   flex-basis: 35%;
+  width: 170.92px;
+  height: 222.83px;
   order: 2;
 }
 
@@ -171,4 +188,40 @@
   display: flex;
   flex-direction: column;
   flex-basis: 50%;
+}
+
+.video-frame{
+  display: grid;
+  grid-template-columns: 50% 40%;
+  grid-gap: 5px;
+}
+
+.video{
+  width: auto;
+  position: relative;
+  top: -100px;
+}
+
+.cap{
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.text{
+  padding-bottom: 10px;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.base-line{
+  display: grid;
+  grid-template-columns: 8fr repeat(5, 1fr);
+}
+
+.link{
+  color: #33f;
 }
