@@ -37,14 +37,14 @@
 }
 
 .checkbox-list-1{
-  flex-direction: column;
-  flex-basis: 70%;
+  display: grid;
+  grid-template-columns: 1fr;
   order: 1;
 }
 
 .checkbox-list-2{
-  flex-direction: column;
-  flex-basis: 50%;
+  display: grid;
+  grid-template-columns: 1fr;
   order: 2;
 }
 
@@ -224,4 +224,9 @@
 
 .link{
   color: #33f;
+}
+
+.checkbox-list{
+  display: grid;
+  grid-template-columns: 50% 50%;
 }

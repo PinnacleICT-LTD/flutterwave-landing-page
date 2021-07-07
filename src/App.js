@@ -97,17 +97,17 @@ function App() {
                       </Box>
                     </Box>
                     
-                    <Box className="row">
-                      <Box className="column">
-                        <CheckboxGroup className="">
+                    <Box className="checkbox-list">
+                      <Box className="">
+                        <CheckboxGroup className="checkbox-list-1">
                           <Checkbox>Debit and Credit Cards</Checkbox>
                           <Checkbox>Mobile Money</Checkbox>
                           <Checkbox>M-Pesa</Checkbox>
                           <Checkbox>Bank Transfer</Checkbox>
                         </CheckboxGroup>
                       </Box>
-                      <Box className="column">
-                      <CheckboxGroup className="">
+                      <Box className="">
+                      <CheckboxGroup className="chexbox-2">
                           <Checkbox>Bank Account</Checkbox>
                           <Checkbox>POS</Checkbox>
                           <Checkbox>Visa QR</Checkbox>
@@ -125,12 +125,12 @@ function App() {
                 <p className="P"><Text>Create cards for your team, add spending limits, make them site-specific and so much more.</Text></p>
               
                 <Text className="h3">Create virtual Mastercard and VISA cards</Text>
-                <p className="P"><Text>Using the Flutterwave API, you can instanly create and manage virtual cards. Cards can be used instantly through wallets and global websites.</Text></p>
-                </Box>
+              <p className="P"><Text>Using the Flutterwave API, you can instanly create and manage virtual cards. Cards can be used instantly through wallets and global websites.</Text></p>
+            </Box>
               
-                <Box className="video">
-                  <video autoplay loop muted src={Cards}></video>
-                </Box>
+            <Box className="video">
+              <video autoPlay muted loop src={Cards}></video>
+            </Box>
           </Box>
 
           <Box className="video-frame">
